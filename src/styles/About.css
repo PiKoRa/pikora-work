@@ -1,0 +1,17 @@
+.about-box {
+    display: flex;
+}
+.about-image {
+    display: flex;
+    justify-content: right;
+}
+.about-image img {
+    margin-right: 10px;
+    object-fit: contain;
+}
+.about-description {
+    max-width: 450px;
+}
+.about-description h3 {
+    margin: 0;
+}

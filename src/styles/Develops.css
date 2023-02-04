@@ -1,0 +1,79 @@
+.develops-description {
+    margin: 0 30px;
+    text-align: center;
+}
+.card-parent {
+    background-color: var(--bg-color);
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+    .card-parent img {
+        margin-bottom: 10px;
+    }
+
+    .card-parent {
+        flex-direction: column;
+    }
+}
+
+.card-title {
+    margin: 0;
+}
+.card-description {
+    padding: 5px;
+}
+.card-description p {
+    margin-top: 0;
+}
+.working-term {
+    display: inline;
+    font-size: 0.9em;
+}
+
+.working-state {
+    padding: 5px 10px;
+    margin: 3px;
+    border-radius: 4px;
+    display: inline;
+}
+.working-state.state0 {
+    background-color: rgb(127, 212, 255);
+}
+.working-state.state1 {
+    background-color: rgb(65, 227, 65);
+}
+.working-state.state2 {
+    background-color: rgb(193, 50, 50);
+}
+
+.card-button {
+    display: flex;
+    margin-top: 16px;
+}
+.card-button a {
+    user-select: none;
+    padding: 5px 10px;
+    margin: 3px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+a.card-work-button {
+    background-color: rgb(83, 141, 228);
+}
+a.card-github-button {
+    background-color: rgb(50, 51, 53);
+    color: white;
+}
+a.card-nicovideo-button {
+    background-color: rgb(92, 200, 101);
+}
+.card-button a.inactive {
+    color: rgb(73, 73, 73);
+    background-color: gray;
+}
