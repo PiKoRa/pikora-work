@@ -17,3 +17,9 @@ export interface VideoInfo {
     nicovideoUrl: string;
     postedDate: string;
 }
+
+export interface ContactUrls {
+    twitterUrl: string
+    githubUrl: string
+    nicovideoUrl: string
+}
